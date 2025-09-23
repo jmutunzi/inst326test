@@ -1,0 +1,7 @@
+worked on the Week 2 exercises for INST326. Most of it was going over the basics again — variables, type conversion, strings, conditionals, and lists. A lot of the problems had us practice things like sorting lists, removing items, checking conditions with if/else, and string methods like .strip() and .find().
+
+Before I jumped into the coding part, I went back and looked at the professor’s lecture slides and rewatched a section of the recorded video. That helped refresh how to use indexing and slicing with lists. I also stopped by TA help hours, and that cleared up one mistake I kept making — I was getting a NameError because I forgot to actually run the starter data cell before trying to use loan_counts. Once that clicked, the rest of the exercises started making more sense.
+
+I kept testing my code in Jupyter by printing out small parts step by step, just to see what was happening. That really helped me catch mistakes with indices and formatting. By the end, I felt like I was getting better at reading the errors and figuring out how to fix them myself.
+
+The assignment definitely made me pay attention to little details, like making sure parallel lists (titles, authors, available) always line up, and remembering to round numbers or format strings the right way. Overall, it felt like a good warm-up — I’m more comfortable now with conditionals, loops, and list operations.
