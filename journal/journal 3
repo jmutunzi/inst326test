@@ -1,0 +1,13 @@
+This week, I focused on the Library Management Project (Week 3: Function Exercises) in INST326. I spent time practicing how to write functions that manage titles, authors, and check-out statuses.
+
+Readings/Content Reflection
+I strengthened my understanding of how functions work with lists and conditionals. The exercises helped me see the importance of careful input handling, especially when checking availability, counting books, or removing items. It showed me how these basic skills scale up to larger data systems.
+
+AI Tool Exploration and Review
+I experimented with AI tools to check my logic and help me debug. For example, while working on exercises that returned values like percentages or availability, I learned better ways to structure loops and return statements. The process gave me more confidence in catching small mistakes before they became bigger problems.
+
+Logic and Decision-Making in My Domain
+The coding tasks required step-by-step decision-making. I had to consider edge cases, like what happens if a list is empty, or if a book is already checked out. These situations pushed me to think more critically about error handling and reliable function design.
+
+Something Else
+I also noticed how practicing with these exercises ties directly into real-world information systems. Managing items in a catalog, keeping data consistent across lists, and handling user actions are all challenges that show up in professional library and database systems.
