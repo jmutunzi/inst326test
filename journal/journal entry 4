@@ -1,0 +1,5 @@
+This week, I gained a much deeper understanding of how functions and modules help make programs more organized, reusable, and easier to debug. Writing functions forced me to think in smaller, logical chunks instead of one long block of code, which made troubleshooting less overwhelming. I also learned the importance of variable scope—realizing that global and local variables don’t always behave the same way helped me avoid errors that previously confused me.
+
+Another big takeaway was seeing how modules allow collaboration and reuse. By splitting code into multiple files, I could import only what I needed, keeping things clean and efficient. This was especially useful when working on repetitive tasks that shared the same logic.
+
+Finally, I explored how AI tools like ChatGPT can support coding by explaining syntax or generating function outlines, but I learned it’s still essential to verify every line and understand the logic myself. AI can assist, but it shouldn’t replace comprehension.
