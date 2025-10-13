@@ -1,0 +1,4 @@
+This week, I focused on encapsulation and data validation in Python classes. The assignments involved creating several classes with private attributes, property methods, and setters that enforce constraints and handle user input safely.
+I completed exercises like defining Book, Member, LoanPolicy, and Account classes — each designed to demonstrate different aspects of encapsulation, including read-only and write-only properties, type checking, range validation, and controlled state transitions.
+
+I also practiced Python’s @property decorator, learning how to make class attributes behave like regular variables while still enforcing rules internally. I used AI assistance mainly to check logic structure, confirm syntax, and help me identify edge cases in my code.
