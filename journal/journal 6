@@ -1,0 +1,12 @@
+This week, I used AI primarily to help me complete and understand my OOP (Object-Oriented Programming) exercises for INST326.
+Each problem involved building different Python classes — like Book, Member, Loan, Library, and several helper utilities such as DateUtils, LoanPolicy, and Formatter.
+
+AI helped me:
+
+Structure my class definitions cleanly with correct attributes and methods.
+
+Learn how to use class methods, static methods, and dataclasses properly.
+
+Understand how to link classes together (for example, how Library uses Member, Loan, and Catalog).
+
+Write readable and testable Python code while keeping it consistent with assignment guidelines.
