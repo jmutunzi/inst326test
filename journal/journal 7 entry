@@ -1,0 +1,7 @@
+This week focused on exception handling, validation, and testing in Python. I worked on writing functions that could handle different kinds of errors, like invalid input, missing files, and custom exceptions. The main goal was to make the code more reliable and prevent it from crashing when something unexpected happens.
+
+I learned how to use try, except, else, and finally blocks to control the flow of my program. I also created custom error messages using raise ValueError() and raise TypeError() so users know exactly what went wrong. One of the most important takeaways was understanding why catching specific errors is better than using a broad except: statement, because it helps keep the code cleaner and easier to debug.
+
+I also practiced writing unit tests using the unittest module. It helped me confirm that my functions worked correctly and handled errors the way I expected them to. Running tests and seeing all of them pass gave me more confidence in my code.
+
+Overall, Week 7 taught me how to write safer, cleaner, and more professional code. I now understand how to protect programs from crashing and make sure they handle different problems smoothly.
