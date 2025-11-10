@@ -1,0 +1,13 @@
+This week finally made inheritance click for me. We’ve talked about classes before, but building a small library system with actual subclasses helped it feel real. I started with a base Book class and then made a few subtypes: PrintedBook, EBook, AudioBook, and a ReferenceBook. Each one shared the core stuff—ISBN, title, and a simple describe()—but they behaved differently when it mattered.
+
+Two things stood out:
+
+Overriding for real behavior.
+PrintedBook has a 21-day loan, EBook 14, and AudioBook sits in between. ReferenceBook can’t be checked out at all. Instead of a bunch of if/elif checks, each class just knows its own rules. Calling book.loan_period_days() just works, regardless of the subtype. I know that’s the point of polymorphism, but seeing it simplify code was a nice “ohhh” moment.
+
+Composition vs. inheritance.
+I added a tiny Notifier object to the checkout desk so it could send a message like “Enjoy your audiobook!” That wasn’t a new subclass; it was just a separate helper the system used. It reminded me: not everything needs to be a child class—sometimes you just plug in another object and keep it moving.
+
+I ran into one snag with equality. At first I compared books by all their fields, which was messy. Switching to “books are equal if their ISBNs match” made comparisons predictable and avoided false differences when titles had small formatting changes.
+
+The most useful part was calculating late fees without type checks. Each subclass exposes a daily rate, and late_fee(days_late) just multiplies it out. Again—no branching. The code reads cleaner, and it’s easy to update one subclass without breaking the others.
