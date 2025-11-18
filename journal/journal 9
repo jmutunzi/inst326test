@@ -1,0 +1,3 @@
+This week I used AI a little just to help me understand some of the abstract class concepts in the Week 9 notebook. The assignment added a bunch of new things like abstract properties, abstract classmethods, and template methods, and I wanted to make sure I was doing them the right way. I mostly asked AI to explain what the instructions meant and to give me small examples so I could compare them with my own code.
+
+One thing AI helped me see more clearly was how strict abstract classes are—if you forget one method, Python throws a TypeError right away. After I understood that, the rest of the questions started making more sense. I still wrote the code myself, but I used AI when I got stuck on how something like a virtual subclass or a Protocol was supposed to behave.
