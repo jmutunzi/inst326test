@@ -1,0 +1,5 @@
+  This week focused on understanding how real testing works across a full system. In lecture, we covered unit tests, integration tests, and system tests, and it made sense why each level matters. Unit tests catch small issues inside individual methods. Integration tests show whether different parts of the system communicate correctly. System tests check full workflows and reflect what a user would actually experience. We also learned how refactoring becomes much safer when you have solid tests supporting the code.
+
+One important point this week was how much testing relies on human decision making. AI can help generate test cases, but only humans can judge what actually needs to be tested, what the biggest risks are, and how much coverage is enough to trust the system. Testing also exposes design issues, so when something is difficult to test, it usually means the code needs to be cleaned up or reorganized.
+
+This week helped me understand the connection between architecture, testing, and refactoring. These ideas will matter for Project 4 because the system needs to function smoothly as a whole, not just as individual parts.
