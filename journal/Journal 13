@@ -1,0 +1,12 @@
+This week, our group made significant strides in developing Project 4, building on the foundations we laid in previous projects. Our main focus has been on enhancing the system’s architecture and incorporating more advanced object-oriented principles to ensure scalability and maintainability.
+
+Progress and Achievements:
+
+Refined Inheritance and Polymorphism: We revisited our inheritance hierarchy to make sure each subclass (like Book, DVD, and Journal) correctly implements the abstract methods from our base class. This ensures that polymorphism is used effectively, allowing our system to handle different item types seamlessly.
+
+Enhanced Composition and System Relationships: We solidified the composition relationships between the Catalog, Member, and Checkout classes. This makes sure that our system accurately represents real-world "has-a" relationships, like a Catalog containing multiple items or a Member having multiple checkouts, without misusing inheritance.
+
+Design Patterns and Best Practices: We’ve incorporated design patterns such as abstract base classes and the template method approach to ensure our code is both modular and extensible. This makes it easier to add new features or item types in the future.
+
+Challenges, Next Steps, and Finalization:
+We did encounter a few challenges aligning all team members’ code and ensuring everyone adhered to the same architectural principles. Now that we’re nearing the end, we are focusing on finalizing the project and recording our presentation. This will help us communicate our design choices clearly and ensure we’re all prepared for the final submission.
